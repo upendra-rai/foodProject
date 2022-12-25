@@ -1,0 +1,22 @@
+/*----------------------------------------*/
+/*  1.  Notification CSS
+/*----------------------------------------*/
+.nt-mg-b-30{
+	margin-bottom:30px;
+}
+.nt-mg-b-40{
+	margin-bottom:40px;
+}
+.notification-list, .button-ad-wrap{
+	background:#fff;
+	padding:20px;
+}
+
+.notification-list{
+	top:0;
+}
+
+.notification-bt .btn{
+	border-radius:0px;
+	margin-right:10px;
+}

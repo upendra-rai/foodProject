@@ -1,0 +1,142 @@
+.section_card{
+	background-color:#272a3d;
+	padding-top:10px;
+	box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+-ms-box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.section_card.floating_form{
+	position: fixed;
+}
+
+@media only screen and (max-width: 1100px){
+	.section_card.floating_form{
+		position: relative;
+	}
+}
+/*|||||||******|||||||******|||||||  Buttons Css  |||||||******|||||||******|||||||*/
+
+.btn-transparent{
+	max-width:150px;
+	width:100%;
+	padding: 6px 15px;
+	border-radius:5px;
+	background-color: transparent;
+	margin: 0px 3px
+}
+.btn-transparent.btn-yellow{
+	border: 1px solid #d69223;
+	color: #d69223;
+}
+.btn-transparent.btn-yellow:hover{
+	background-color:#d69223;
+	color:#ffffff;
+}
+.btn-transparent.btn-red{
+	border: 1px solid #ff4749;
+	color: #ff4749;
+}
+.btn-transparent.btn-red:hover{
+	background-color:#ff4749;
+	color:#ffffff;
+}
+.btn-transparent.btn-blue{
+	border: 1px solid #228bfe;
+	color: #228bfe;
+}
+.btn-transparent.btn-blue:hover{
+	background-color:#228bfe;
+	color:#ffffff;
+}
+.btn-transparent.btn-white{
+	border: 1px solid #b2b1b6;
+	color: #b2b1b6;
+}
+.btn-transparent.btn-white:hover{
+	background-color:#b2b1b6;
+	color:#ffffff;
+}
+.btn-transparent.btn-green{
+	border: 1px solid #71c015;
+	color: #71c015;
+}
+.btn-transparent.btn-green:hover{
+	background-color:#71c015;
+	color:#ffffff;
+}
+
+
+/* success message */
+.success_message{
+    min-width: 200px;
+    position: fixed;
+    top: 8px;
+    right:-100%;
+    border: 1px solid #2e312e;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #1a9c36;
+    color: #fff;
+    padding: 5px 25px;
+    line-height: 23px;
+    height: 33px;
+    font-weight: 700;
+    box-shadow: -1px 6px 11px 0px rgba(19, 18, 18, 0.9);
+    font-size: 13px;
+    z-index: 1030;
+    text-align: center;
+}
+
+/*|||||||******|||||||******|||||||  My card section  |||||||******|||||||******|||||||*/
+.my_cards{
+
+}
+.my_cards .my_cards_title{
+  font-size: 16px;
+  color: #fff;
+  margin-left: 10px;
+}
+.my_cards .my_cards_ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}
+
+.my_cards .my_cards_ul li{
+  width: 19.6%;
+  height: auto;;
+  display: inline-block;
+   padding: 5px 10px;
+   color: #ffffff;
+}
+.my_cards .my_cards_ul li .my_cards_box{
+   width: 100%;
+   height: 80px;
+   background-color: #171724;
+   padding: 10px 15px;
+	
+	 border-radius: 5px;
+	 margin-bottom: 10px;
+}
+.my_cards .my_cards_ul li .left_div{
+  width: calc(100% - 35px);
+  height: 100%;
+  display: inline-block;
+  font-size: 18px;
+  float: left;
+
+}
+.my_cards .my_cards_ul li .left_div .title{
+	font-size: 16px;
+}
+
+.my_cards .my_cards_ul li .right_div{
+  width: 30px;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  font-size: 28px;
+}
